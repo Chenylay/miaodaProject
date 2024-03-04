@@ -1,0 +1,36 @@
+<view>
+    <view class="AF-main">
+      <view class="Af-top" style="flex: auto;">
+        <image class="backButton" style="width: 28px; height: 28px;" src="../../../static/image/personal-image/返回.png" mode="" bindtap="goBack"></image>
+        <text class="topText">我的</text>
+        <image class="topPicture" style="width: 24px; height: 24px;" src="../../../static/image/personal-image/搜索.png" mode=""></image>
+      </view>
+      <view class="AF-title">
+        <view class="title-botton">
+          <navigator url="/pages/PersonalPage/attentionFanPage/attentionPage">
+            <button type="default" style="color: #5473F9; background-color: transparent; color: #9A9A9A; border: none; font-size: 30rpx; border-radius: 80rpx; font-size: 30rpx;" hover-class="is-hover">关注</button>
+          </navigator>
+          <button type="default" style="color: #5473F9; background-color: transparent; color: #5478F9; border: none; font-size: 30rpx; border-radius: 80rpx; font-size: 30rpx;" hover-class="is-hover">粉丝</button>
+        </view>
+      </view>
+      <scroll-view>
+        <view class="AF-member" wx:for="{{6}}" wx:key="index">
+        <view class="avatar">
+          <image style="width: 60px; height: 60px; border-radius: 100rpx;" src="../../../static/image/personal-image/头像.jpg" mode="aspectFill"></image>
+        </view>
+        <view class="userInfo">
+          <view class="datails-name">
+            <text class="datails-name">柯布</text>
+          </view>
+          <text class="xxx">xxx</text>
+          <view class="datails-information">
+            <text class="datails-information">粉丝数：1648万</text>
+          </view>
+        </view>
+        <view class="member-botton">
+          <button type="default" style="color: #5478F9; background-color: #FFFFFF; border-color:#5478F9;border-radius: 50rpx; font-size: 26rpx;" hover-class="is-hover">发信息</button>
+        </view>
+      </view>
+      </scroll-view>
+    </view>
+  </view>

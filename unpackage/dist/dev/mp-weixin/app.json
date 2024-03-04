@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/comments/comments",
+    "pages/PersonalPage/PersonalPage",
+    "pages/PlanetPage/PlanetPage",
+    "pages/post/post",
+    "pages/search/search",
+    "pages/SpecialPage/SpecialPage",
+    "pages/PersonalPage/attentionFanPage/attentionPage",
+    "pages/PersonalPage/attentionFanPage/fanPage",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabBar/首页-1.png",
+        "selectedIconPath": "static/image/tabBar/首页-2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/SpecialPage/SpecialPage",
+        "iconPath": "static/image/tabBar/专题-1.png",
+        "selectedIconPath": "static/image/tabBar/专题-2.png",
+        "text": "专题"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/image/tabBar/加.png",
+        "selectedIconPath": "static/image/tabBar/加.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/PlanetPage/PlanetPage",
+        "iconPath": "static/image/tabBar/多人-1.png",
+        "selectedIconPath": "static/image/tabBar/多人-2.png",
+        "text": "星球"
+      },
+      {
+        "pagePath": "pages/PersonalPage/PersonalPage",
+        "iconPath": "static/image/tabBar/个人-1.png",
+        "selectedIconPath": "static/image/tabBar/个人-2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

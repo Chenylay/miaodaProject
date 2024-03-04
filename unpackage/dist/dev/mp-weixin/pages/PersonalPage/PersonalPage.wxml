@@ -1,0 +1,82 @@
+<view class="container">
+  <view class="person-information">
+    <view class="person-details">
+      <view class="avatar">
+        <image style="width: 70px; height: 70px; background-color: #ffffff; border-radius: 100rpx;" src="../../static/image/personal-image/头像.jpg" mode="aspectFill"></image>
+      </view>
+      <view class="userInfo">
+        <view class="datails-name">
+          <text class="datails-name">姓名</text>
+        </view>
+        <view class="datails-information">
+          <text class="datails-information">华南师范大学 计算机学院 网络工程</text>
+        </view>
+      </view>
+    </view>
+    <view class="person-social">
+      <view class="social-number">
+        <view class="number-attenioon">
+          <text class="numbersetting">20</text>
+        </view>
+        <view class="number-fan">
+          <text class="numbersetting">200</text>
+        </view>
+        <view class="number-dynamic">
+          <text class="numbersetting">240</text>
+        </view>
+        <view class="number-praise">
+          <text class="numbersetting">1000</text>
+        </view>
+      </view>
+      <view class="social-text">
+        <view class="social-attenioon">
+          <navigator url="/pages/PersonalPage/attentionFanPage/attentionPage">
+            <text class="textsetting">关注</text>
+          </navigator>
+        </view>
+        <view class="social-fan">
+          <navigator url="/pages/PersonalPage/attentionFanPage/fanPage">
+            <text class="textsetting">粉丝</text>
+          </navigator>
+        </view>
+        <view class="social-dynamic">
+          <text class="textsetting">动态</text>
+        </view>
+        <view class="social-praise">
+          <text class="textsetting">获赞</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="person-fuction">
+    <view class="fuctionPicture">
+      <image class="picture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/提问.png" mode="aspectFill"></image>
+      <image class="picture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/课程.png" mode="aspectFill"></image>
+      <image class="picture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/收藏.png" mode="aspectFill"></image>
+      <image class="picture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/历史记录.png" mode="aspectFill"></image>
+    </view>
+    <view class="fuctionText">
+      <text class="fuc-text">我的提问</text>
+      <text class="fuc-text">我的课程</text>
+      <text class="fuc-text">我的收藏</text>
+      <text class="fuc-text">历史记录</text>
+    </view>
+  </view>
+  <view class="person-tools">
+    <view class="Text">
+      <text class="toolsText">常用工具</text>
+    </view>
+    <view class="toolPicture">
+      <image class="toolpicture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/信息.png" mode="aspectFill"></image>
+      <image class="toolpicture" style="width: 23px; height: 25px;" src="../../static/image/personal-image/发帖.png" mode="aspectFill"></image>
+      <image class="toolpicture" style="width: 20px; height: 20px;" src="../../static/image/personal-image/帮助与反馈.png" mode="aspectFill"></image>
+      <image class="toolpicture" style="width: 23px; height: 20px;" src="../../static/image/personal-image/系统设置.png" mode="aspectFill"></image>
+    </view>
+    <view class="toolText">
+      <text class="tooltext">我的消息</text>
+      <text class="tooltext">我的发帖</text>
+      <text class="tooltext">帮助与反馈</text>
+      <text class="tooltext">系统设置</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,97 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container .layout.data-v-1cf27b2a {
+  margin-top: 148rpx;
+  padding: 14rpx 46rpx;
+  width: 100%;
+}
+.container .layout .box.data-v-1cf27b2a {
+  width: 660rpx;
+  height: 550rpx;
+  background-image: linear-gradient(to bottom, #B886F8, #fff);
+  border-radius: 20rpx;
+  margin: 16rpx 0;
+  padding: 14rpx 35rpx;
+}
+.container .layout .box .title.data-v-1cf27b2a {
+  margin: 15rpx 0;
+  font-size: 40rpx;
+  color: #fff;
+  font-weight: bold;
+}
+.container .layout .box .fire.data-v-1cf27b2a {
+  height: 34rpx;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.container .layout .box .fire .image.data-v-1cf27b2a {
+  height: 34rpx;
+  width: 34rpx;
+  margin-right: 5rpx;
+}
+.container .layout .box .fire .fireText.data-v-1cf27b2a {
+  font-size: 24rpx;
+  color: red;
+}
+.container .layout .box .questionTitle.data-v-1cf27b2a {
+  width: 588rpx;
+  height: 120rpx;
+  background-color: #efefef;
+  border-radius: 15rpx;
+  margin: 5rpx 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+.container .layout .box .questionTitle .littleTitleAnswer.data-v-1cf27b2a {
+  width: 430rpx;
+  padding: 10rpx 20rpx;
+}
+.container .layout .box .questionTitle .littleTitleAnswer .littleTitle.data-v-1cf27b2a {
+  font-size: 28rpx;
+  font-weight: bold;
+  margin: 5rpx 0;
+}
+.container .layout .box .questionTitle .littleTitleAnswer .answer.data-v-1cf27b2a {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  height: 27rpx;
+}
+.container .layout .box .questionTitle .praise.data-v-1cf27b2a {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 30rpx;
+  margin: 45rpx 0;
+  margin-left: 20rpx;
+}
+.container .layout .box .questionTitle .praise .praiseImage.data-v-1cf27b2a {
+  height: 30rpx;
+  width: 30rpx;
+}
+.container .layout .box .questionTitle .praise .praiseText.data-v-1cf27b2a {
+  margin: 0 10rpx;
+  font-size: 26rpx;
+}

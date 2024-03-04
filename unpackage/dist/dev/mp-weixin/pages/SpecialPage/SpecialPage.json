@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mid-searchbox": "../../components/mid-searchbox/mid-searchbox"
+  }
+}

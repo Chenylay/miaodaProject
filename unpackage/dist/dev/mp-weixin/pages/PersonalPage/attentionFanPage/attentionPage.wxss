@@ -1,0 +1,105 @@
+.AF-main {
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.Af-top {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  height: 80rpx;
+  background-color: #FFFFFF;
+}
+.Af-top .backButton {
+  position: sticky;
+  /* display: flex;
+  box-sizing: border-box;
+  aspect-ratio: auto 67/24; */
+  margin-top: 30rpx;
+  /* width: 10rpx;
+  height: 10rpx; */
+  /* margin-right: 20rpx; */
+  /* margin-left: 100rpx; */
+}
+.Af-top .topText {
+  position: sticky;
+  margin-top: 20rpx;
+  margin-left: 200rpx;
+  font-size: 40rpx;
+  color: #101010;
+  font-weight: bold;
+}
+.Af-top .topPicture {
+  position: sticky;
+  margin-top: 20rpx;
+  margin-left: 200rpx;
+}
+.AF-title {
+
+  background-color: #FFFFFF;
+  height: 100rpx;
+  border-bottom: 1px solid #e6e6e6;
+}
+.AF-title .is-hover {
+  color: #5478F9;
+}
+.AF-title .title-botton {
+  position: sticky;
+  padding-top: 15rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-left: 180rpx;
+  margin-right: 230rpx;
+}
+.AF-member {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 26rpx;
+  width: 94%;
+  height: 200rpx;
+  border: 1rpx solid #9A9A9A;
+  border-radius: 30rpx;
+}
+.AF-member .avatar {
+  margin-top: 5rpx;
+  top: 10rpx;
+  left: 20rpx;
+  margin-right: 5rpx;
+}
+.AF-member .userInfo {
+  margin-bottom: 20rpx;
+  top: 0;
+  left: 20rpx;
+}
+.AF-member .userInfo .datails-name {
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  font-size: 32rpx;
+}
+.AF-member .userInfo .xxx {
+  margin-top: 5rpx;
+  margin-left: 24rpx;
+  font-size: 20rpx;
+  color: #9A9A9A;
+}
+.AF-member .userInfo .datails-information {
+  margin-top: 5rpx;
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  color: #9A9A9A;
+}
+.AF-member .member-botton {
+  margin-top: 56rpx;
+  margin-left: 200rpx;
+}

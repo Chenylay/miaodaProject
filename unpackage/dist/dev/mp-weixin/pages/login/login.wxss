@@ -1,0 +1,74 @@
+
+.load-main{
+	height: 100%;
+	flex: auto;
+	display: flex;
+	flex-direction: column;
+/* 	justify-content: center; */
+	align-items: center;
+	
+	
+/* 	background-color: palegreen; */
+}
+.load-box{
+	display: flex;
+	width: 90%;
+	height: 550rpx;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+/* 	background-color: antiquewhite; */
+}
+.load-text{
+	height: 80rpx;
+	margin-top: 100rpx;
+}
+.titleLine{
+	font-size:40rpx;
+	color: #101010;
+	font-weight: bold;
+	/* 	line-height: 90rpx;
+		font-size: 40rpx; */
+}
+.load-input{
+	display: flex;
+	border-bottom:1px solid #9A9A9A;
+
+	width: 80%;
+	height: 49rpx;
+	margin-top: 40rpx;
+	align-items: center;
+}
+.load-place{
+	padding-left:20px;
+	font-size: 15px;
+}
+.load-button{
+	margin-top: 70rpx;
+}
+.load-button-style{
+	padding-right:100px;
+	padding-left:100px;
+}
+.load-message{
+	position: fixed;
+	margin-top: 290px;
+	margin-left: 8px;
+}
+.load-password{
+	position: fixed;
+	margin-top: 290px;
+	margin-left: 280px;
+}
+.title{
+  flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding-right:20px;
+	padding-left:-100px;
+  /* margin-left: -100rpx;
+  margin-right: 100rpx; */
+  color: #54739A;
+}

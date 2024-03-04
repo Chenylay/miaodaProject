@@ -1,0 +1,115 @@
+.person-information {
+  width: 880rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin: 16rpx 0;
+  padding: 14rpx 35rpx;
+  position: relative;
+}
+.person-information .person-details {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-information .person-details .avatar {
+  margin-top: 5rpx;
+  margin-right: 5rpx;
+}
+.person-information .person-details .userInfo {
+  left: 20rpx;
+}
+.person-information .person-details .userInfo .datails-name {
+  margin-top: 58rpx;
+  margin-left: 18rpx;
+  font-size: 36rpx;
+}
+.person-information .person-details .userInfo .datails-information {
+  margin-top: 10rpx;
+  margin-left: 18rpx;
+  font-size: 28rpx;
+  color: #9A9A9A;
+}
+.person-information .person-social .social-number {
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-information .person-social .social-number .numbersetting {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 20rpx; */
+  font-size: 32rpx;
+  padding: 10rpx;
+  padding-left: 92rpx;
+}
+.person-information .person-social .social-text {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-information .person-social .social-text .textsetting {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 78rpx;
+  padding-right: 22rpx;
+  font-size: 30rpx;
+  color: #9A9A9A;
+}
+.person-fuction {
+  width: 110%;
+  height: 170rpx;
+  border-bottom: 1px solid #e2e2e2;
+}
+.person-fuction .fuctionPicture {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-fuction .fuctionPicture .picture {
+  margin: 20rpx;
+  margin-left: 106rpx;
+  justify-content: space-between;
+}
+.person-fuction .fuctionText {
+  margin-top: 5rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-fuction .fuctionText .fuc-text {
+  margin-left: 68rpx;
+  justify-content: space-between;
+  font-size: 26rpx;
+  color: #101010;
+}
+.person-tools .toolsText {
+  margin: 20rpx;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  font-size: 26rpx;
+  color: #101010;
+}
+.person-tools .toolPicture {
+  margin-top: 10rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-tools .toolPicture .toolpicture {
+  margin: 20rpx;
+  margin-left: 108rpx;
+  justify-content: space-between;
+}
+.person-tools .toolText {
+  margin-top: 5rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.person-tools .toolText .tooltext {
+  margin-left: 83rpx;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color: #101010;
+}
